@@ -4,10 +4,6 @@ class CommentsController < ApplicationController
     @comment = Comment.order("RANDOM()").first
   end
 
-  def new
-    @comment = Comment.new
-  end
-
   def create
     @comment = Comment.create(comment_params)
     if @comment.invalid?
