@@ -4,4 +4,8 @@ class CommentsController < ApplicationController
     @comment = Comment.order("RANDOM()").first
   end
 
+  def new
+    @comment = Comment.new
+  end
+
 end

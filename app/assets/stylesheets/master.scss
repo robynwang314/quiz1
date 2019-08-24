@@ -12,6 +12,11 @@
     Clear: both;
 }
 
+body {
+  background: image_url('linedpaper.png');
+
+}
+
 .logo {
   font-family: 'Fjalla One', sans-serif;
   font-weight: bold;position: relative;
@@ -45,7 +50,8 @@
 
 header { 
   border-top: 7px solid #73997d;
-  border-bottom: 7px solid #73997d;  
+  border-bottom: 7px solid #73997d;
+  background: white;  
 }
 
 hr { 
