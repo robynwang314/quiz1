@@ -28,11 +28,25 @@
             <%= link_to 'About', '#' %>
         </div>
       </header>
-
       <hr />
-
       <br class="clear" />
 
-    <%= yield %>
+      <div class="container">
+        <%= yield %>
+      </div>
+
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 date-created">
+              August 2019
+            </div>
+            <div class="col-6 footer-blurb">
+              Created by <a href="https://robynwang.netlify.com">Robyn Wang</a><br />
+            </div>
+          </div>
+        </div>
+      </div>
+
   </body>
 </html>
