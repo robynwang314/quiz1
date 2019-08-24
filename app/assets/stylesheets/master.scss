@@ -1,10 +1,19 @@
 @import "bootstrap";
 
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Farro&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Farro|Libre+Caslon+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Shadows+Into+Light&display=swap');
+
 .clear {
     Clear: both;
 }
 
 .logo {
+  font-family: 'Fjalla One', sans-serif;
   font-weight: bold;position: relative;
   border-radius: 100%;
   background: white;
@@ -20,6 +29,7 @@
 }
 
 .slogan {
+  font-family: 'Farro', sans-serif;
   padding-top: 20px
 }
 
@@ -28,6 +38,7 @@
 }
 
 .links a {
+    font-family: 'Fjalla One', sans-serif;
     color: black;
     border-bottom: 1px solid #dfdfdf;
 }
@@ -39,4 +50,12 @@ header {
 
 hr { 
   clear: both;
+}
+
+p {
+  font-family: 'Libre Caslon Display', serif;
+}
+
+i {
+  font-family: 'Cormorant Garamond', serif;  
 }
