@@ -13,18 +13,20 @@
 
       <header class="row">
         <div class="col-3">
+          <%= link_to root_path, class: 'logo' do %>
             <div class="logo">
               <br />
               BOOTCAMP
               <br />
               QUIZ
               </div>
+          <% end %>
         </div>
         <div class="col-4 slogan">
           How will she do? We will see!
         </div>
         <div class="col-5 links">
-            <%= link_to 'Contribute', '#' %>
+            <%= link_to 'Contribute', new_comment_path %>
             <%= link_to 'About', '#' %>
         </div>
       </header>
