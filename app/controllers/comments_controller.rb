@@ -15,6 +15,10 @@ class CommentsController < ApplicationController
   def about
   end
 
+  def all
+    @comment = Comment.all
+  end
+
   private
 
   def comment_params

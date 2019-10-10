@@ -1,0 +1,12 @@
+<div class="col-10 offset-1">
+  <h1><center>Full List of Random Quotes</center></h1>
+</div>
+
+<br />
+
+<% @comment.each do |comment| %>
+  <p><%= comment.feedback %><br />
+    <i div class="float-right">-<%= comment.author %></i>
+  </p>
+  <br />
+<% end %>
