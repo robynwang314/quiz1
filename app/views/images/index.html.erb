@@ -5,9 +5,9 @@
 <br />
 
 <% @image.each do |image| %>
-  <%= image_tag image.picture.to_s, class: 'img-fluid' %>
   <p><%= image.caption %><br />
-    <i div class="float-right">-<%= image.author %></i>
-  </p>
+  <i>-<%= image.author %></i></p>
+  <br />
+  <center><%= image_tag image.picture.to_s, class: 'img-fluid' %></center>
   <br />
 <% end %>
