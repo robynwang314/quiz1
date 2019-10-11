@@ -1,0 +1,13 @@
+<div class="col-10 offset-1">
+  <h1><center>Compilation of Memes</center></h1>
+</div>
+
+<br />
+
+<% @image.each do |image| %>
+  <%= image_tag image.picture.to_s, class: 'img-fluid' %>
+  <p><%= image.caption %><br />
+    <i div class="float-right">-<%= image.author %></i>
+  </p>
+  <br />
+<% end %>

@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   resources :comments
   get 'about', to: 'comments#about'  
   get 'all', to: 'comments#all'
+
+  resources :images
 end

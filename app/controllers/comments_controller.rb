@@ -2,6 +2,7 @@ class CommentsController < ApplicationController
 
   def index
     @comment = Comment.order("RANDOM()").first
+    @image = Image.order("RANDOM()").first
   end
 
   def create

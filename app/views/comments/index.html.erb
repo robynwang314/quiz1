@@ -4,16 +4,22 @@
 </center>
 
 <br />
-
   <p><%= @comment.feedback %> </p>
   <i>- <%= @comment.author %></i>
-
 <br />
+<br />
+
+  <%= image_tag @image.picture.to_s, class: 'img-fluid' %>
+  <p><%= @image.caption %><br />
+    <i>-<%= @image.author %></i>
+  </p>
+
 <br />
 <br /><br />
 
-    <div class="text-center all"><b>
-      <%= link_to 'View all Quotes', all_path, class: 'btn btn-outline-success' %></b>
+    <div class="text-center all">
+      <%= link_to 'View all Quotes', all_path, class: 'btn btn-outline-success' %> &nbsp; &nbsp;
+      <%= link_to 'View all Memes', images_path, class: 'btn btn-outline-success' %>
     </div>
 
 
