@@ -19,7 +19,7 @@ This individual project rebuilding the <a href="https://splurty-robyn-wang.herok
 <div id="technologies"></div> 
 
 ## Built With ##
-Flixter integrates the following: 
+This application integrates the following: 
 <ul>
   <li><a href="https://github.com/twbs/bootstrap-rubygem">Bootstrap </a></li>
   <li><a href="https://github.com/carrierwaveuploader/carrierwave">Carrierwave</a></li>
