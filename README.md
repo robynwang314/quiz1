@@ -37,7 +37,7 @@ This application integrates the following:
 <p>Then change directory into your quiz1 project and create the initial database and start the server</p>
 <pre><code> $ rake db:create</code></pre>
 
-<p>In a separate terminal window, enter into your Flixter folder and set up the web development pipeline</p>
+<p>In a separate terminal window, enter into your quiz1 folder and set up the web development pipeline</p>
 <pre><code>create new Github repository
 create project in heroku and then deploy it to heroku</code></pre>
 
